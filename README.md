@@ -28,14 +28,14 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot/desktop.png)
-![](./screenshot/mobile.png)
 ![](./screenshot/modal1.png)
+![](./screenshot/mobile.png)
 ![](./screenshot/modal2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/crowdfunding-page-using-bootstrap-js-ClsbxDODG](https://www.frontendmentor.io/solutions/crowdfunding-page-using-bootstrap-js-ClsbxDODG)
+- Live Site URL: [https://iqbl-nrkhls.github.io/crowdfunding-page/](https://iqbl-nrkhls.github.io/crowdfunding-page/)
 
 ## My process
 
