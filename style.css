@@ -1,0 +1,144 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #3cb4ac !important;
+}
+
+.text-gray {
+  color: #7a7a7a !important;
+}
+
+.bg-primary {
+  background: #3cb4ac !important;
+}
+
+.btn-primary {
+  background: #3cb4ac;
+  border: none;
+  font-weight: 700;
+}
+.btn-primary:hover {
+  background: #147b74;
+}
+.btn-primary:focus {
+  background: #147b74;
+  box-shadow: 0 0 0 0.25rem #3cb4ac40;
+}
+
+.rounded-3 {
+  border-radius: 0.7rem !important;
+}
+
+body {
+  background: #FAFAFA;
+  font-family: "Commissioner", sans-serif;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-toggler {
+  z-index: 99;
+}
+.navbar .navbar-collapse {
+  background: linear-gradient(#000, transparent);
+  z-index: 1;
+}
+.navbar .navbar-collapse .list-group {
+  font-weight: 500;
+}
+
+.section-1 {
+  margin-top: -50px !important;
+  position: relative;
+}
+.section-1 .icon-brand {
+  margin-top: -75px;
+}
+
+.section-2 .breaker {
+  display: block;
+  width: 100px;
+  border-bottom: 1px solid #dee0e2;
+  margin: 0 auto;
+}
+
+.section-3 .sold {
+  opacity: 0.4;
+}
+
+#modal-1 .modal-dialog {
+  max-width: 712px;
+}
+#modal-1 .sold {
+  opacity: 0.4;
+}
+#modal-1 .form-check-input:checked, #modal-1 .form-check-input:focus {
+  background-color: #3cb4ac;
+  border: none;
+}
+#modal-1 .form-check-input :focus {
+  box-shadow: 0 0 0 0.25rem #3cb4ac40;
+}
+#modal-1 .input-group-lg {
+  height: 56px !important;
+}
+#modal-1 .input-group-lg .input-group-text {
+  border-radius: 100px 0 0 100px !important;
+  border-right: none !important;
+  font-weight: 700 !important;
+  background: none !important;
+}
+#modal-1 .input-group-lg .form-control {
+  border-radius: 0 100px 100px 0 !important;
+  border-left: none !important;
+  font-weight: 700 !important;
+}
+
+#modal-2 .icon-check {
+  width: 64px;
+}
+
+@media (min-width: 768px) {
+  .btn-primary,
+.btn-secondary {
+    max-width: 240px;
+  }
+
+  .navbar .navbar-collapse {
+    display: none !important;
+  }
+
+  main {
+    max-width: 760px !important;
+  }
+
+  .section-1 .icon-brand {
+    margin-top: -120px;
+  }
+
+  .section-2 .item {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  .section-2 .item .display-3 {
+    font-size: 2rem !important;
+  }
+  .section-2 .breaker {
+    width: 0;
+    height: 100px;
+    border-bottom: none;
+    border-right: 1px solid #dee0e2;
+    margin: 0;
+  }
+  .section-2 .progress {
+    height: 10px !important;
+  }
+
+  .section-3 .display-2 {
+    font-size: 2rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
